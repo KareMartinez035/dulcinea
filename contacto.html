@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/hello-puppy" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><img id="frutos" src="cake-food.gif">
+                <img id="reposteria" src="Reposteria.png" alt=""></h1>
+            </div>
+        <nav class="introduccion">
+           <ul>
+                <li> 
+                    <i class='bx bx-home-heart bx-tada'></i>
+                    <a href="Home.html">Home</a>
+                </li>
+                <li>
+                    <i class='bx bx-menu bx-burst' ></i>
+                    <a href="Menu.html">Menu</a>
+                </li>
+                <li> 
+                    <i class='bx bx-phone-call bx-tada' ></i>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+           </ul> 
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="" method="get">
+                <label for="name"><b>Nombre y Apellido</b></label>
+                    <input id="name" type="text" required autocomplete="off" class="input-padron"></input>
+
+                <label for="phone"><b>Telefono</b></label>
+                    <input id="phone" type="tel" required autocomplete="off" placeholder="(XX)-XXXXXXXXXX" class="input-padron"></input>
+
+                <label for="e-mail"><b>Correo Electronico</b></label>
+                <input id="e-mail" type="email" required autocomplete="off" placeholder="coreo@example.com" class="input-padron"></input>
+                  
+                <label for="seleccion"><b> ¿Cómo quiere que lo contacten?</b></label>
+                <label for="radio-Telefono"><input id="Telefono" type="radio" name="seleccion">Telefono</label>
+                <label for="radio-Whatsaap"><input id="Whatsaap" type="radio" name="seleccion" checked>Whatsapp</label>
+                <label for="radio-Twiter"><input id="Twiter" type="radio" name="seleccion">Twiter</label>
+                
+                <label class="checkbox"><input type="checkbox" checked><b> ¿Le gustaria recibir notificacion <br> de nuestras promociones?</b></label>
+
+                <label for=""><b>Ciudad</b></label>
+                <select>
+                    <option></option>
+                    <option>Barranquilla</option>
+                    <option>Bogotá</option>
+                    <option>Cali</option>
+                    <option>Cartagena</option>
+                    <option>Medellin</option>
+                    <option>Melgar</option>
+                    <option>Ibague</option>
+                </select>
+                
+                <label for="message"><b>Mensaje</b></label>
+                <textarea name="" id="" cols="35" rows="10" class="input-padron"></textarea>
+                
+                
+                <input class="env-form" type="submit" value="Reset"></imput>
+            </form>
+            <container class="mapa"> <h5> ¡Te esperamos! </h5>
+                <br>
+                <br>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15907.55328023815!2d-74.08844799999999!3d4.614001099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1683911971696!5m2!1ses!2sco" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+            </container>
+        </section>
+    </main>
+    <footer>
+            <p class="pie-pagina"><i class='bx bx-copyright'></i>     Repostería hecha en casa <br>
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-instagram-alt' ></i>
+            <i class='bx bxl-tiktok' ></i></p>
+    </footer>
+</body>
+</html>

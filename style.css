@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(opaco.jpg);
+    width: 100%;
+    font-size: 16px;
+}
+header{
+    background:url("texturas.jpg");
+    height: 12.5em;
+    width: auto;
+}
+header h1 {
+    position: relative;
+    display: inline;
+    height: 10em;
+    width: 12.5em;
+    margin: 20px 0 20px 20px;
+}
+#frutos{
+    width: 17rem;
+    height: 10rem;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#reposteria{
+    margin-bottom: 40px;
+    width: 300px;
+}
+a{
+    color: rgb(222, 9, 165);
+    text-decoration: none;
+}
+i, h1 {color: rgb(222, 9, 165);
+    font-size: 27px;
+    text-align: center;
+}
+.introduccion{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 1.44em;
+    margin-left: 15%;
+}
+ li{
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 1.9em;
+}
+.entrada, p{
+padding: 3.13em;
+line-height: 2.19em;
+text-align: justify;
+margin-right: 1.25em;
+margin-left: 3.13em;
+width: auto;
+}
+.fruto{
+    float: left;
+    margin-top: 2.75em;
+    margin-bottom: 2em;
+    margin-right: 1.40em;
+    width: 20.62rem;
+    height: 15rem;
+    box-shadow: 5px 12px 25px black;
+    border-radius: 8px;
+}
+.vasos{
+    float: right;
+    margin-top: 2.75rem;
+    margin-left: 1.25em;
+    width: 20.62rem;
+    height: 15rem;
+    box-shadow: 10px 12px 25px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.sabroso{
+    margin-left: 12.5em; 
+}
+.Mmm{
+    margin-left: 10%;
+    margin-bottom: 6.25em;
+    width: 12.5em;
+    height: 12.5em;
+}
+.video{
+    margin-top: 3.16em;
+    margin-bottom: 3.13em;
+    box-shadow: 10px 12px 25px rgb(0, 0, 0);
+    border-radius: 0.5em;
+    margin-left: 10%;
+}
+section{
+    position: flex;
+    padding-left: 4em;
+    margin: auto;
+    place-items: center;
+}
+.lineal{
+    display: inline-block;
+    
+    
+}
+.card{
+    width: 15.63em;
+    height: 25em;
+    perspective: 125em;
+    display: inline-block;
+    margin: 2.5em;
+
+    .inner{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 13px  rgb(3, 3, 3);
+        border-radius: 15px;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .front, .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        backface-visibility: hidden;
+    }
+    .front{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    .back{
+        text-align: center;
+        font-size: 1.2em;
+        display: grid;
+        place-items: center;
+        background-color:rgb(250, 211, 244);
+        transform: rotateY(180deg);
+    }
+    .inner:hover{
+        transform: rotateY(-180deg);
+    }
+}
+h4{
+    font-size: 23px;
+    font-family: 'Hello Puppy', sans-serif;
+}
+.menu{
+    width: 120px;
+    height: 120px;
+    vertical-align: auto;
+}
+
+h2{
+    text-align:justify;
+    vertical-align: auto;
+    margin: 3.13em 3.13em;
+    font-family: 'Hello Puppy', sans-serif;
+}
+h3{
+    margin-top: 1em;
+    font-family: 'Hello Puppy', sans-serif;
+}
+section{
+    width: 75em;
+    margin: 0 auto 0 auto;
+}
+form{
+    position: relative;
+    display: inline-block;
+}
+
+label{
+    font-family: 'Hello Puppy', sans-serif;
+    display: block;
+    margin: 1em 0 1em 0;
+    font-size: 1.6em;
+}
+.input-padron{
+    display: block;
+    margin: 0.3em 0 0.3em 0;
+    font-size: 1em;
+    padding: 0.7em 2.19em;
+    width: 50%;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.input-padron:hover{
+    transform: scale(1.2);
+    box-shadow: 0 8px 15px  rgb(0, 0, 0);
+}
+select{
+    font-size: 1.2em;
+    padding: 0.3em 2.19em;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+select:hover{
+    box-shadow: 0 8px 15px  rgb(0, 0, 0);
+}
+option{
+    font-size: 1.13em;
+    margin: 5px 0 0 0;
+}
+.checkbox{
+    margin: 1.6em 0 ;
+}
+textarea{
+    padding: 0.3em 2.9em ;
+    border-radius: 15px;
+}
+.env-form{
+    padding: 0.2em 0.6em;
+    font-size: 1.44em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 5px 20px;
+    background-color:  rgb(250, 215, 249);
+    font-family: 'Hello Puppy', sans-serif;
+}
+.mapa{
+    width: 30em;
+    height: 25em;
+    position: absolute;
+    display: inline-block;
+    margin: 7.5em 2.5em;
+}
+h5{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Hello Puppy', sans-serif;
+}
+footer{
+    background: linear-gradient(rgb(239, 143, 246), pink);
+    height: 160px;
+    width: 100%;
+    padding: 20px;
+}
+p {
+    font-family: 'Hello Puppy', sans-serif;
+    padding: 23px;
+    color:  rgb(222, 9, 165);
+    font-size: 23px;
+}
+.pie-pagina{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1150px){
+    body, main, .introduccion, header, .lineal{
+        font-size: 14px;
+        width: 100%;
+    }
+    .card{
+        display: block;
+    }
+    .lineal{
+        width: auto;
+        position: relative;
+        display: grid;
+    }
+    header{
+        width: auto;
+        height: 15em;
+        text-align: center;
+    }
+    .introduccion{
+        position: static;
+    }
+    .logo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    header{
+        height: 28em;
+    }
+    #reposteria, .mapa{
+        float: center;
+        position: flex;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        display: block;
+    }
+    .mapa{
+    width: 330px;
+    padding: 0;
+    
+    }
+}
